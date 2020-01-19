@@ -9,6 +9,7 @@ const Navbar = () => {
             <div className="container">
                 <Link to="/" className="brand-logo">Projector</Link>
                 <SignedInLinks />
+                <SignedOutLinks />
             </div>
         </nav>
     )
